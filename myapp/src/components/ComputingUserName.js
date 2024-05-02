@@ -42,7 +42,7 @@ const computingUserName = () => {
     });
   }
   makeUserName(accounts); /// added user name to each data value
-  //   console.log(accounts)
+  // console.log(accounts);
   return <div>computingUserName</div>;
 };
 
