@@ -1,4 +1,6 @@
 import React from "react";
+import Julia from "./Juliachallange.js";
+import MapFilterReduce from "./MapFilterReduce.js";
 
 const Home = () => {
   //concat method
@@ -68,7 +70,13 @@ const Home = () => {
     console.log(`${key}:${val}`); //each value of map  where index == key and val is the element
   });
 
-  return <div>Home</div>;
+  return (
+    <div>
+      Home
+      <Julia />
+      <MapFilterReduce />
+    </div>
+  );
 };
 
 export default Home;
