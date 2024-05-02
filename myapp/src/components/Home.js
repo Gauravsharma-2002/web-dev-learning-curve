@@ -1,6 +1,7 @@
 import React from "react";
 import Julia from "./Juliachallange.js";
 import MapFilterReduce from "./MapFilterReduce.js";
+import ComputingUserName from "./ComputingUserName.js";
 
 const Home = () => {
   //concat method
@@ -75,6 +76,7 @@ const Home = () => {
       Home
       <Julia />
       <MapFilterReduce />
+      <ComputingUserName/>
     </div>
   );
 };
